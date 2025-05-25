@@ -2,7 +2,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import Link from "next/link";
-import api from "../services/api.js"
+import api from "./api/api.js"
 import { useAuth } from "../contexts/AuthContext.js";
 
 export default function LoginPage() {

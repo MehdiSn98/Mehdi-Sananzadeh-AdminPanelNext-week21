@@ -3,7 +3,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import api from "../services/api";
+import api from "./api/api.js";
 
 export default function RegisterPage() {
   const router = useRouter();

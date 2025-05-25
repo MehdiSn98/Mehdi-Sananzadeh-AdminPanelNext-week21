@@ -5,7 +5,7 @@ import {
   useEffect,
   useCallback,
 } from "react";
-import api from "../services/api";
+import api from "../pages/api/api.js";
 
 const ProductContext = createContext();
 export const useProducts = () => useContext(ProductContext);
